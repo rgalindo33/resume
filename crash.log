@@ -1,0 +1,278 @@
+Crashlog created at 2014-06-06 14:50:46 +0200
+
+===== MESSAGE:
+
+LoadError: cannot load such file -- kramdown
+Make sure the gem is added to Gemfile and run `bundle install`.
+
+===== COMPILATION STACK:
+
+  (empty)
+
+===== STACK TRACE:
+
+  0. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/filter.rb:99:in `require'
+  1. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/filter.rb:99:in `block in setup'
+  2. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/filter.rb:99:in `each'
+  3. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/filter.rb:99:in `setup'
+  4. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/filter.rb:120:in `setup_and_run'
+  5. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/result_data/item_rep.rb:339:in `filter'
+  6. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
+  7. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule_context.rb:61:in `filter'
+  8. ./Rules:18:in `block in load'
+  9. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule.rb:70:in `instance_eval'
+  10. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/rule.rb:70:in `apply_to'
+  11. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:385:in `compile_rep'
+  12. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:341:in `block in compile_reps'
+  13. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:334:in `loop'
+  14. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:334:in `compile_reps'
+  15. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  16. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  17. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:65:in `block in recompile'
+  18. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `chdir'
+  19. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:63:in `recompile'
+  20. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-nanoc-1.0.2/lib/guard/nanoc.rb:24:in `run_all'
+  21. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:74:in `block in run_supervised_task'
+  22. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:71:in `catch'
+  23. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:71:in `run_supervised_task'
+  24. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:22:in `block (2 levels) in run'
+  25. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:150:in `block (3 levels) in _scoped_plugins'
+  26. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:148:in `each'
+  27. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:148:in `block (2 levels) in _scoped_plugins'
+  28. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:147:in `catch'
+  29. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:147:in `block in _scoped_plugins'
+  30. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:145:in `each'
+  31. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:145:in `_scoped_plugins'
+  32. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:21:in `block in run'
+  33. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/lumberjack-1.0.6/lib/lumberjack.rb:32:in `unit_of_work'
+  34. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/runner.rb:20:in `run'
+  35. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/commander.rb:80:in `block in run_all'
+  36. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/commander.rb:108:in `block in within_preserved_state'
+  37. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/commander.rb:105:in `synchronize'
+  38. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/commander.rb:105:in `within_preserved_state'
+  39. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/commander.rb:77:in `run_all'
+  40. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/commands/all.rb:23:in `process'
+  41. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:579:in `call'
+  42. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:453:in `call_with_hooks'
+  43. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:426:in `call_safely'
+  44. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:368:in `process_line'
+  45. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command_set.rb:350:in `process_line'
+  46. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:445:in `process_command'
+  47. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:426:in `retrieve_line'
+  48. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:301:in `block in r'
+  49. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:298:in `loop'
+  50. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:298:in `r'
+  51. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:276:in `re'
+  52. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:254:in `rep'
+  53. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:234:in `block (3 levels) in repl'
+  54. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:232:in `loop'
+  55. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:232:in `block (2 levels) in repl'
+  56. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:231:in `catch'
+  57. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:231:in `block in repl'
+  58. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:230:in `catch'
+  59. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:230:in `repl'
+  60. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_class.rb:248:in `run_command'
+  61. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib/guard/interactor.rb:211:in `block in _create_run_all_command'
+  62. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:492:in `instance_exec'
+  63. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:492:in `call'
+  64. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:453:in `call_with_hooks'
+  65. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:426:in `call_safely'
+  66. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command.rb:368:in `process_line'
+  67. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/command_set.rb:350:in `process_line'
+  68. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:445:in `process_command'
+  69. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:426:in `retrieve_line'
+  70. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:301:in `block in r'
+  71. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:298:in `loop'
+  72. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:298:in `r'
+  73. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:276:in `re'
+  74. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:254:in `rep'
+  75. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:234:in `block (3 levels) in repl'
+  76. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:232:in `loop'
+  77. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:232:in `block (2 levels) in repl'
+  78. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:231:in `catch'
+  79. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:231:in `block in repl'
+  80. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:230:in `catch'
+  81. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_instance.rb:230:in `repl'
+  82. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib/pry/pry_class.rb:170:in `start'
+
+===== VERSION INFORMATION:
+
+nanoc 3.6.11 © 2007-2014 Denis Defreyne.
+Running ruby 2.0.0 (2014-02-24) on x86_64-darwin12.5.0 with RubyGems 2.2.2.
+
+===== SYSTEM INFORMATION:
+
+Darwin naiguata.local 13.2.0 Darwin Kernel Version 13.2.0: Thu Apr 17 23:03:13 PDT 2014; root:xnu-2422.100.13~1/RELEASE_X86_64 x86_64
+
+===== INSTALLED GEMS:
+
+  bundler 1.5.3
+  celluloid 0.16.0.pre
+  coderay 1.1.0
+  colored 1.2
+  cri 2.6.1
+  ffi 1.9.3
+  formatador 0.2.5
+  guard 2.6.1
+  guard-nanoc 1.0.2
+  hitimes 1.2.1
+  listen 2.7.7
+  lumberjack 1.0.6
+  method_source 0.8.2
+  nanoc 3.6.11
+  pry 0.9.12.4
+  rb-fsevent 0.9.4
+  rb-inotify 0.9.4
+  slop 3.4.7
+  thor 0.18.1
+  timers 2.0.0
+
+===== ENVIRONMENT:
+
+Apple_PubSub_Socket_Render => "/tmp/launch-LmCWPW/Render"
+BUNDLE_BIN_PATH => "/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451@global/gems/bundler-1.5.3/bin/bundle"
+BUNDLE_GEMFILE => "/Users/rgalindo33/Developer/resume/Gemfile"
+COLORFGBG => "7;0"
+COLUMNS => "272"
+GEM_HOME => "/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451"
+GEM_PATH => "/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451:/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451@global"
+GREP_COLOR => "1;32"
+GREP_OPTIONS => "--color=auto --exclude-dir=.cvs --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn"
+GUARD_NOTIFIERS => "---\n- :name: :terminal_title\n  :options:\n    :silent: true\n"
+GUARD_NOTIFY => "true"
+HOME => "/Users/rgalindo33"
+IRBRC => "/Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/.irbrc"
+ITERM_PROFILE => "Default"
+ITERM_SESSION_ID => "w1t0p1"
+LC_CTYPE => ""
+LESS => "-R"
+LINES => "20"
+LOGNAME => "rgalindo33"
+LSCOLORS => "Gxfxcxdxbxegedabagacad"
+MY_RUBY_HOME => "/Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451"
+OLDPWD => "/Users/rgalindo33"
+PAGER => "less"
+PATH => "/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/bin:/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/heroku/bin:/usr/local:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/Library/PostgreSQL/9.3/bin:/Users/rgalindo33/bin:/Users/rgalindo33/.rvm/bin"
+PWD => "/Users/rgalindo33/Developer/resume"
+RUBYLIB => "/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451@global/gems/bundler-1.5.3/lib"
+RUBYOPT => "-rbundler/setup"
+SHELL => "/bin/zsh"
+SHLVL => "1"
+SSH_AUTH_SOCK => "/tmp/launch-F7NowR/Listeners"
+TERM => "xterm-256color"
+TERM_PROGRAM => "iTerm.app"
+TMPDIR => "/var/folders/kl/bgvkc5yj3yd1hmrxb0k2l8zc0000gn/T/"
+USER => "rgalindo33"
+_ => "/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451@global/bin/bundle"
+_ORIGINAL_GEM_PATH => "/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451:/Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451@global"
+__CF_USER_TEXT_ENCODING => "0x1F5:0:0"
+__CHECKFIX1436934 => "1"
+_system_arch => "x86_64"
+_system_name => "OSX"
+_system_type => "Darwin"
+_system_version => "10.9"
+rvm_alias_expanded => ""
+rvm_bin_path => "/Users/rgalindo33/.rvm/bin"
+rvm_docs_type => ""
+rvm_gemstone_package_file => ""
+rvm_gemstone_url => ""
+rvm_niceness => ""
+rvm_nightly_flag => ""
+rvm_path => "/Users/rgalindo33/.rvm"
+rvm_prefix => "/Users/rgalindo33"
+rvm_proxy => ""
+rvm_quiet_flag => ""
+rvm_ruby_file => ""
+rvm_ruby_make => ""
+rvm_ruby_make_install => ""
+rvm_ruby_mode => ""
+rvm_script_name => ""
+rvm_sdk => ""
+rvm_silent_flag => ""
+rvm_version => "1.25.22 (stable)"
+rvm_wrapper_name => ""
+
+===== GEMFILE.LOCK:
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    celluloid (0.16.0.pre)
+      timers (~> 2.0.0)
+    coderay (1.1.0)
+    colored (1.2)
+    cri (2.6.1)
+      colored (~> 1.2)
+    ffi (1.9.3)
+    formatador (0.2.5)
+    guard (2.6.1)
+      formatador (>= 0.2.4)
+      listen (~> 2.7)
+      lumberjack (~> 1.0)
+      pry (>= 0.9.12)
+      thor (>= 0.18.1)
+    guard-nanoc (1.0.2)
+      guard (>= 1.8.0)
+      nanoc (>= 3.6.3)
+    hitimes (1.2.1)
+    kramdown (1.3.3)
+    listen (2.7.7)
+      celluloid (>= 0.15.2)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
+    lumberjack (1.0.6)
+    method_source (0.8.2)
+    nanoc (3.6.11)
+      cri (~> 2.3)
+    pry (0.9.12.4)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rb-fsevent (0.9.4)
+    rb-inotify (0.9.4)
+      ffi (>= 0.5.0)
+    slop (3.4.7)
+    thor (0.18.1)
+    timers (2.0.0)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  guard-nanoc
+  kramdown
+
+===== LOAD PATHS:
+
+  0. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-nanoc-1.0.2/lib
+  1. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/nanoc-3.6.11/lib
+  2. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/guard-2.6.1/lib
+  3. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/thor-0.18.1/lib
+  4. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/pry-0.9.12.4/lib
+  5. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/slop-3.4.7/lib
+  6. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/method_source-0.8.2/lib
+  7. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/lumberjack-1.0.6/lib
+  8. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/listen-2.7.7/lib
+  9. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/rb-inotify-0.9.4/lib
+  10. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/rb-fsevent-0.9.4/lib
+  11. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/formatador-0.2.5/lib
+  12. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/extensions/x86_64-darwin-12/2.0.0-static/ffi-1.9.3
+  13. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/ffi-1.9.3/lib
+  14. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/ffi-1.9.3/ext/ffi_c
+  15. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/cri-2.6.1/lib
+  16. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/colored-1.2/lib
+  17. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/coderay-1.1.0/lib
+  18. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/celluloid-0.16.0.pre/lib
+  19. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/timers-2.0.0/lib
+  20. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/extensions/x86_64-darwin-12/2.0.0-static/hitimes-1.2.1
+  21. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451/gems/hitimes-1.2.1/lib
+  22. /Users/rgalindo33/.rvm/gems/ruby-2.0.0-p451@global/gems/bundler-1.5.3/lib
+  23. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/site_ruby/2.0.0
+  24. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/site_ruby/2.0.0/x86_64-darwin12.5.0
+  25. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/site_ruby
+  26. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/vendor_ruby/2.0.0
+  27. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin12.5.0
+  28. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/vendor_ruby
+  29. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0
+  30. /Users/rgalindo33/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/x86_64-darwin12.5.0
