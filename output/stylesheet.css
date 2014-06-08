@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  margin: 0px auto;
+  margin: 10px auto;
   background-color: #FAFAFA;
   color: #333222;
   font-size: 2.1rem;
@@ -67,11 +67,57 @@ p {
 
 ul, ol {
   margin: 20px;
+  padding-left: 1.2em;
 }
 
 ul li {
-  list-style-type: square;
+  list-style-type: none;
+  text-indent: -0.7em;
+  margin-bottom: .67em;
 }
+ul li:before {
+  content: "–";
+  margin-right: .8rem;
+  color: #a7a47a;
+}
+
+li p {
+  display: inline;
+}
+
+hr {
+  border-top: 1px dotted #A7A47A;
+  border-bottom: 0px;
+  width: 90%;
+}
+
+#head p {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin: 46px 0;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+#head img {
+  display: inline-block;
+}
+
+#head a {
+  border: none;
+}
+
+.portrait {
+  height: 200px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.github {
+  height: 30px;
+}
+
 
 
 @media all and (max-width: 900px) and (min-width: 600px) {
@@ -81,6 +127,13 @@ ul li {
     margin-right: 1.6rem;
     font-size: 1.8rem;
   }
+  #head p {
+    font-size: 1.4rem;
+    margin: 26px 0;
+  }
+  .portrait {
+    height: 150px;
+  }
 }
 @media all and (max-width: 600px) {
   body {
@@ -88,5 +141,12 @@ ul li {
     padding-left: 1rem;
     margin-right: 1rem;
     font-size: 1.4rem;
+  }
+  #head p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+  }
+  .portrait {
+    height: 120px;
   }
 }

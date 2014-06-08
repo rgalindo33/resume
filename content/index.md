@@ -2,6 +2,8 @@
 title: Home
 ---
 
+
+
 Who I am
 --------
 
@@ -38,6 +40,7 @@ Due to scalating problems, we, a team of 3 developers, redesigned the whole app.
 
 I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQuery. See it live at <http://m.qustodian.com>
 
+* * *
 
 **TheGoodData, <http://www.thegooddata.org>**  
 *2014*  
@@ -45,11 +48,15 @@ I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQu
 
 TheGoodData is a cooperative that allows its users to obtain control of their data. I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and also did some of the website's frontend.
 
+* * *
+
 **Parkside, <http://www.parkside.at>**  
 *2011-2012*  
 *Frontend Developer*  
 
 I worked on the [Video2brain](http://www.video2brain.com) team, an international video training website with 400k+ users. My job there was implementing new features (mostly JavaScript) and typical layout tasks.
+
+* * *
 
 **Gruebl Automatisierungstechnik**  
 *2010-2011*  
@@ -60,6 +67,8 @@ KVZ – standard Ruby on Rails app that gathered Project information, contacts a
 PIM – also a RoR app to manage the problems and incidences of the support department. Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.
 
 In both projects I was responsible for a variety of tasks including front and backend development, user experience design, visual design, and server setup and maintenance.
+
+* * *
 
 **Universidad Central de Venezuela**  
 *[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/)*  

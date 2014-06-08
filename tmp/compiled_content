@@ -1,17 +1,34 @@
-{:	data{I"/:ET{:default{	:	lastI"ñ<!DOCTYPE HTML>
+{:	data{	I"/:ET{:default{	:	lastI"
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Raul Galindo - Full Stack Web Developer</title>
     <link rel="stylesheet" href="/stylesheet.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.11">
   </head>
   <body>
     <div id="main">
+      <section id="head">
+        <img class="portrait" src="images/raul.jpg">
+        <p>
+          <strong>Raul Galindo</strong>
+          - Full Stack Developer 
+          <br>
+          +34 671642372
+          <br>
+          <a href="mailto:rgalindo33@gmail.com">rgalindo33@gmail.com</a>
+          <br>
+          <a href="http://github.com/rgalindo33">
+            <img class="github" src="images/GitHub-Mark-120px-plus.png">
+          </a>
+        </p>
+      </section>
+
       <h2 id="who-i-am">Who I am</h2>
 
 <p>My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain.</p>
@@ -51,17 +68,23 @@
 
 <p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com">http://m.qustodian.com</a></p>
 
+<hr />
+
 <p><strong>TheGoodData, <a href="http://www.thegooddata.org">http://www.thegooddata.org</a></strong><br />
 <em>2014</em><br />
 <em>Frontend Developer</em></p>
 
 <p>TheGoodData is a cooperative that allows its users to obtain control of their data. I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and also did some of the websiteâ€™s frontend.</p>
 
+<hr />
+
 <p><strong>Parkside, <a href="http://www.parkside.at">http://www.parkside.at</a></strong><br />
 <em>2011-2012</em><br />
 <em>Frontend Developer</em>  </p>
 
 <p>I worked on the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. My job there was implementing new features (mostly JavaScript) and typical layout tasks.</p>
+
+<hr />
 
 <p><strong>Gruebl Automatisierungstechnik</strong><br />
 <em>2010-2011</em><br />
@@ -72,6 +95,8 @@
 <p>PIM â€“ also a RoR app to manage the problems and incidences of the support department. Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.</p>
 
 <p>In both projects I was responsible for a variety of tasks including front and backend development, user experience design, visual design, and server setup and maintenance.</p>
+
+<hr />
 
 <p><strong>Universidad Central de Venezuela</strong><br />
 <em><a href="http://www.ciens.ucv.ve/ciens/">Facultad de Ciencias</a></em><br />
@@ -90,11 +115,12 @@
 <p>I love to travel and get to know new cultures, and my favourite travel method is my beloved VW bus.
 Besides writing software, my main activities are surfing &amp; skateboarding. I am also a bit melomaniac</p>
 
+
     </div>
     </div>
   </body>
 </html>
-;T:rawI".Who I am
+;T:rawI"IWho I am
 --------
 
 My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain.
@@ -130,6 +156,7 @@ Due to scalating problems, we, a team of 3 developers, redesigned the whole app.
 
 I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQuery. See it live at <http://m.qustodian.com>
 
+* * *
 
 **TheGoodData, <http://www.thegooddata.org>**  
 *2014*  
@@ -137,11 +164,15 @@ I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQu
 
 TheGoodData is a cooperative that allows its users to obtain control of their data. I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and also did some of the website's frontend.
 
+* * *
+
 **Parkside, <http://www.parkside.at>**  
 *2011-2012*  
 *Frontend Developer*  
 
 I worked on the [Video2brain](http://www.video2brain.com) team, an international video training website with 400k+ users. My job there was implementing new features (mostly JavaScript) and typical layout tasks.
+
+* * *
 
 **Gruebl Automatisierungstechnik**  
 *2010-2011*  
@@ -152,6 +183,8 @@ KVZ â€“ standard Ruby on Rails app that gathered Project information, contacts a
 PIM â€“ also a RoR app to manage the problems and incidences of the support department. Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.
 
 In both projects I was responsible for a variety of tasks including front and backend development, user experience design, visual design, and server setup and maintenance.
+
+* * *
 
 **Universidad Central de Venezuela**  
 *[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/)*  
@@ -169,7 +202,7 @@ I enjoy team work and find it very fun to do
 I'm fluent in English, German and Spanish. 
 
 I love to travel and get to know new cultures, and my favourite travel method is my beloved VW bus.
-Besides writing software, my main activities are surfing & skateboarding. I am also a bit melomaniac;T:preI"Ú<h2 id="who-i-am">Who I am</h2>
+Besides writing software, my main activities are surfing & skateboarding. I am also a bit melomaniac;T:preI"ú<h2 id="who-i-am">Who I am</h2>
 
 <p>My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain.</p>
 
@@ -208,17 +241,23 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 
 <p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com">http://m.qustodian.com</a></p>
 
+<hr />
+
 <p><strong>TheGoodData, <a href="http://www.thegooddata.org">http://www.thegooddata.org</a></strong><br />
 <em>2014</em><br />
 <em>Frontend Developer</em></p>
 
 <p>TheGoodData is a cooperative that allows its users to obtain control of their data. I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and also did some of the websiteâ€™s frontend.</p>
 
+<hr />
+
 <p><strong>Parkside, <a href="http://www.parkside.at">http://www.parkside.at</a></strong><br />
 <em>2011-2012</em><br />
 <em>Frontend Developer</em>  </p>
 
 <p>I worked on the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. My job there was implementing new features (mostly JavaScript) and typical layout tasks.</p>
+
+<hr />
 
 <p><strong>Gruebl Automatisierungstechnik</strong><br />
 <em>2010-2011</em><br />
@@ -229,6 +268,8 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <p>PIM â€“ also a RoR app to manage the problems and incidences of the support department. Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.</p>
 
 <p>In both projects I was responsible for a variety of tasks including front and backend development, user experience design, visual design, and server setup and maintenance.</p>
+
+<hr />
 
 <p><strong>Universidad Central de Venezuela</strong><br />
 <em><a href="http://www.ciens.ucv.ve/ciens/">Facultad de Ciencias</a></em><br />
@@ -247,7 +288,7 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <p>I love to travel and get to know new cultures, and my favourite travel method is my beloved VW bus.
 Besides writing software, my main activities are surfing &amp; skateboarding. I am also a bit melomaniac</p>
 ;T:	post@
-I"/stylesheet/;T{;{;I"¸html {
+I"/stylesheet/;T{;{;I"Êhtml {
   margin: 0;
   padding: 0;
   font-size: 10px;
@@ -255,7 +296,7 @@ I"/stylesheet/;T{;{;I"¸html {
 }
 
 body {
-  margin: 0px auto;
+  margin: 10px auto;
   background-color: #FAFAFA;
   color: #333222;
   font-size: 2.1rem;
@@ -316,11 +357,57 @@ p {
 
 ul, ol {
   margin: 20px;
+  padding-left: 1.2em;
 }
 
 ul li {
-  list-style-type: square;
+  list-style-type: none;
+  text-indent: -0.7em;
+  margin-bottom: .67em;
 }
+ul li:before {
+  content: "â€“";
+  margin-right: .8rem;
+  color: #a7a47a;
+}
+
+li p {
+  display: inline;
+}
+
+hr {
+  border-top: 1px dotted #A7A47A;
+  border-bottom: 0px;
+  width: 90%;
+}
+
+#head p {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin: 46px 0;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+#head img {
+  display: inline-block;
+}
+
+#head a {
+  border: none;
+}
+
+.portrait {
+  height: 200px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.github {
+  height: 30px;
+}
+
 
 
 @media all and (max-width: 900px) and (min-width: 600px) {
@@ -330,6 +417,13 @@ ul li {
     margin-right: 1.6rem;
     font-size: 1.8rem;
   }
+  #head p {
+    font-size: 1.4rem;
+    margin: 26px 0;
+  }
+  .portrait {
+    height: 150px;
+  }
 }
 @media all and (max-width: 600px) {
   body {
@@ -338,6 +432,13 @@ ul li {
     margin-right: 1rem;
     font-size: 1.4rem;
   }
+  #head p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+  }
+  .portrait {
+    height: 120px;
+  }
 }
 ;T;	@;
-@:versioni
+@I"$/images/GitHub-Mark-120px-plus/;T{;{ I"/images/raul/;T{;{ :versioni
