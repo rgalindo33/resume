@@ -1,12 +1,13 @@
-{:	data{	I"/:ET{:default{	:	lastI"
-<!DOCTYPE HTML>
+{:	data{
+I"/:ET{:default{	:	lastI"1<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Raul Galindo - Full Stack Web Developer</title>
     <link rel="stylesheet" href="/stylesheet.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc 3.6.11">
@@ -17,7 +18,7 @@
         <img class="portrait" src="images/raul.jpg">
         <p>
           <strong>Raul Galindo</strong>
-          - Full Stack Developer 
+          - Full Stack Web Developer 
           <br>
           +34 671642372
           <br>
@@ -31,9 +32,11 @@
 
       <h2 id="who-i-am">Who I am</h2>
 
-<p>My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain.</p>
+<p>My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain. I hold a high standard of quality and style in everything that I do</p>
 
-<p>I hold a high standard of quality and style in everything that I do and I try to learn something new every day.</p>
+<p>work for a company which has challenging &amp; interesting problems I can solve using web-based technologies</p>
+
+<p>I have a desire to build web apps that unite and empower the people using them.</p>
 
 <p>My goal is producing work that I can be proud of </p>
 
@@ -62,9 +65,19 @@
 <em>2012-2014</em><br />
 <em>Full Stack Developer</em></p>
 
-<p>Qustodian is an app that delivers offers and ads based on user interests and preferences. It is a big app with background jobs, talks to several Apis and serves an Api itself.</p>
+<p>I am currently working for Qustodian, an app that delivers highly segmentated messages based on user interests, geolocation and preferences. </p>
 
-<p>Due to scalating problems, we, a team of 3 developers, redesigned the whole app. It started as a conventional Rails stack and then it was extended by implementing service objects, form objects, serializers, decorators, and other patterns. This allowed us to maintain our goal of having the cleanest, most scalable code possible, writing lots of small classes with clear responsibilities. There is also a good chunk of JavaScript on the frontend, written in CoffeeScript. The app has a great test coverage using Rspec and Jasmine.</p>
+<p>It is a Rails stack extended by several PORO’s: service objects to handle business logic, form objects for data modeling and maping, serializers to format the models data being sent to others APIs’ … </p>
+
+<p>leaving models only the responsability of persistance.</p>
+
+<p>controllers and models tidy.</p>
+
+<p>We used serializers to </p>
+
+<p>The app is written in a clean fashion way, following SOLID principles and has a great test coverage using Rspec and Jasmine. </p>
+
+<p>There is also a good chunk of JavaScript on the frontend, written in DRY modular CoffeeScript.</p>
 
 <p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com">http://m.qustodian.com</a></p>
 
@@ -74,7 +87,7 @@
 <em>2014</em><br />
 <em>Frontend Developer</em></p>
 
-<p>TheGoodData is a cooperative that allows its users to obtain control of their data. I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and also did some of the website’s frontend.</p>
+<p>TheGoodData is a cooperative that allows users to obtain control of their data and invest the revenue of it on developing countries. I was attracted by the idea of doing something that could had real impact on needed people’s life, so I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and I also worked on the website’s frontend.</p>
 
 <hr />
 
@@ -82,7 +95,7 @@
 <em>2011-2012</em><br />
 <em>Frontend Developer</em>  </p>
 
-<p>I worked on the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. My job there was implementing new features (mostly JavaScript) and typical layout tasks.</p>
+<p>I was part of the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.</p>
 
 <hr />
 
@@ -90,9 +103,9 @@
 <em>2010-2011</em><br />
 <em>Full Stack Developer</em></p>
 
-<p>KVZ – standard Ruby on Rails app that gathered Project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe. Mysql database and extensive use of jQuery datatables (datatables.net)</p>
+<p><strong>KVZ</strong> – this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery <a href="http://datatables.net">datatables</a></p>
 
-<p>PIM – also a RoR app to manage the problems and incidences of the support department. Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.</p>
+<p><strong>PIM</strong> – also a RoR app to manage the problems and incidences of the support department. internal help requests Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.</p>
 
 <p>In both projects I was responsible for a variety of tasks including front and backend development, user experience design, visual design, and server setup and maintenance.</p>
 
@@ -103,7 +116,7 @@
 <em>2008</em><br />
 <em>Diploma Thesis</em></p>
 
-<p>Ruby on Rails app that allowed graduates to query other students’ thesis, and incorporate their own ones once finished. </p>
+<p>In order to achieve my Computer Science Diploma, I developed a Ruby on Rails app for the faculty library that allowed graduates to query other students’ thesis, and incorporate their own ones once finished. </p>
 
 <h2 id="more-about-me">More about me</h2>
 <p>I am an open and friendly person, always willing to have fun and enjoy what I do.</p>
@@ -120,12 +133,15 @@ Besides writing software, my main activities are surfing &amp; skateboarding. I 
     </div>
   </body>
 </html>
-;T:rawI"IWho I am
+;T:rawI"�Who I am
 --------
 
-My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain.
+My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain. I hold a high standard of quality and style in everything that I do
 
-I hold a high standard of quality and style in everything that I do and I try to learn something new every day.
+
+work for a company which has challenging & interesting problems I can solve using web-based technologies
+
+I have a desire to build web apps that unite and empower the people using them.
 
 My goal is producing work that I can be proud of 
 
@@ -150,9 +166,19 @@ What I have done
 *2012-2014*  
 *Full Stack Developer*
 
-Qustodian is an app that delivers offers and ads based on user interests and preferences. It is a big app with background jobs, talks to several Apis and serves an Api itself.
+I am currently working for Qustodian, an app that delivers highly segmentated messages based on user interests, geolocation and preferences. 
 
-Due to scalating problems, we, a team of 3 developers, redesigned the whole app. It started as a conventional Rails stack and then it was extended by implementing service objects, form objects, serializers, decorators, and other patterns. This allowed us to maintain our goal of having the cleanest, most scalable code possible, writing lots of small classes with clear responsibilities. There is also a good chunk of JavaScript on the frontend, written in CoffeeScript. The app has a great test coverage using Rspec and Jasmine.
+It is a Rails stack extended by several PORO's: service objects to handle business logic, form objects for data modeling and maping, serializers to format the models data being sent to others APIs' ... 
+
+leaving models only the responsability of persistance.
+
+ controllers and models tidy.
+
+We used serializers to 
+
+The app is written in a clean fashion way, following SOLID principles and has a great test coverage using Rspec and Jasmine. 
+
+There is also a good chunk of JavaScript on the frontend, written in DRY modular CoffeeScript.
 
 I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQuery. See it live at <http://m.qustodian.com>
 
@@ -162,7 +188,7 @@ I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQu
 *2014*  
 *Frontend Developer*
 
-TheGoodData is a cooperative that allows its users to obtain control of their data. I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and also did some of the website's frontend.
+TheGoodData is a cooperative that allows users to obtain control of their data and invest the revenue of it on developing countries. I was attracted by the idea of doing something that could had real impact on needed people's life, so I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and I also worked on the website's frontend.
 
 * * *
 
@@ -170,7 +196,7 @@ TheGoodData is a cooperative that allows its users to obtain control of their da
 *2011-2012*  
 *Frontend Developer*  
 
-I worked on the [Video2brain](http://www.video2brain.com) team, an international video training website with 400k+ users. My job there was implementing new features (mostly JavaScript) and typical layout tasks.
+I was part of the [Video2brain](http://www.video2brain.com) team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.
 
 * * *
 
@@ -178,9 +204,9 @@ I worked on the [Video2brain](http://www.video2brain.com) team, an international
 *2010-2011*  
 *Full Stack Developer*
  
-KVZ – standard Ruby on Rails app that gathered Project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe. Mysql database and extensive use of jQuery datatables (datatables.net)
+**KVZ** – this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery [datatables](http://datatables.net)
 
-PIM – also a RoR app to manage the problems and incidences of the support department. Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.
+**PIM** – also a RoR app to manage the problems and incidences of the support department. internal help requests Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.
 
 In both projects I was responsible for a variety of tasks including front and backend development, user experience design, visual design, and server setup and maintenance.
 
@@ -191,7 +217,7 @@ In both projects I was responsible for a variety of tasks including front and ba
 *2008*  
 *Diploma Thesis*
 
-Ruby on Rails app that allowed graduates to query other students' thesis, and incorporate their own ones once finished. 
+In order to achieve my Computer Science Diploma, I developed a Ruby on Rails app for the faculty library that allowed graduates to query other students' thesis, and incorporate their own ones once finished. 
 
 More about me
 -------------
@@ -202,11 +228,13 @@ I enjoy team work and find it very fun to do
 I'm fluent in English, German and Spanish. 
 
 I love to travel and get to know new cultures, and my favourite travel method is my beloved VW bus.
-Besides writing software, my main activities are surfing & skateboarding. I am also a bit melomaniac;T:preI"�<h2 id="who-i-am">Who I am</h2>
+Besides writing software, my main activities are surfing & skateboarding. I am also a bit melomaniac;T:preI"�<h2 id="who-i-am">Who I am</h2>
 
-<p>My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain.</p>
+<p>My name is Raul Galindo and I am a software developer from Venezuela, currently working in Barcelona, Spain. I hold a high standard of quality and style in everything that I do</p>
 
-<p>I hold a high standard of quality and style in everything that I do and I try to learn something new every day.</p>
+<p>work for a company which has challenging &amp; interesting problems I can solve using web-based technologies</p>
+
+<p>I have a desire to build web apps that unite and empower the people using them.</p>
 
 <p>My goal is producing work that I can be proud of </p>
 
@@ -235,9 +263,19 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <em>2012-2014</em><br />
 <em>Full Stack Developer</em></p>
 
-<p>Qustodian is an app that delivers offers and ads based on user interests and preferences. It is a big app with background jobs, talks to several Apis and serves an Api itself.</p>
+<p>I am currently working for Qustodian, an app that delivers highly segmentated messages based on user interests, geolocation and preferences. </p>
 
-<p>Due to scalating problems, we, a team of 3 developers, redesigned the whole app. It started as a conventional Rails stack and then it was extended by implementing service objects, form objects, serializers, decorators, and other patterns. This allowed us to maintain our goal of having the cleanest, most scalable code possible, writing lots of small classes with clear responsibilities. There is also a good chunk of JavaScript on the frontend, written in CoffeeScript. The app has a great test coverage using Rspec and Jasmine.</p>
+<p>It is a Rails stack extended by several PORO’s: service objects to handle business logic, form objects for data modeling and maping, serializers to format the models data being sent to others APIs’ … </p>
+
+<p>leaving models only the responsability of persistance.</p>
+
+<p>controllers and models tidy.</p>
+
+<p>We used serializers to </p>
+
+<p>The app is written in a clean fashion way, following SOLID principles and has a great test coverage using Rspec and Jasmine. </p>
+
+<p>There is also a good chunk of JavaScript on the frontend, written in DRY modular CoffeeScript.</p>
 
 <p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com">http://m.qustodian.com</a></p>
 
@@ -247,7 +285,7 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <em>2014</em><br />
 <em>Frontend Developer</em></p>
 
-<p>TheGoodData is a cooperative that allows its users to obtain control of their data. I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and also did some of the website’s frontend.</p>
+<p>TheGoodData is a cooperative that allows users to obtain control of their data and invest the revenue of it on developing countries. I was attracted by the idea of doing something that could had real impact on needed people’s life, so I focused on the development of the Chrome extension using plain JavaScript and Html/CSS, and I also worked on the website’s frontend.</p>
 
 <hr />
 
@@ -255,7 +293,7 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <em>2011-2012</em><br />
 <em>Frontend Developer</em>  </p>
 
-<p>I worked on the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. My job there was implementing new features (mostly JavaScript) and typical layout tasks.</p>
+<p>I was part of the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.</p>
 
 <hr />
 
@@ -263,9 +301,9 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <em>2010-2011</em><br />
 <em>Full Stack Developer</em></p>
 
-<p>KVZ – standard Ruby on Rails app that gathered Project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe. Mysql database and extensive use of jQuery datatables (datatables.net)</p>
+<p><strong>KVZ</strong> – this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery <a href="http://datatables.net">datatables</a></p>
 
-<p>PIM – also a RoR app to manage the problems and incidences of the support department. Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.</p>
+<p><strong>PIM</strong> – also a RoR app to manage the problems and incidences of the support department. internal help requests Due to a highly rotating staff, this was very important to centralize the know-how of the company. This app integrated with the KVZ App.</p>
 
 <p>In both projects I was responsible for a variety of tasks including front and backend development, user experience design, visual design, and server setup and maintenance.</p>
 
@@ -276,7 +314,7 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <em>2008</em><br />
 <em>Diploma Thesis</em></p>
 
-<p>Ruby on Rails app that allowed graduates to query other students’ thesis, and incorporate their own ones once finished. </p>
+<p>In order to achieve my Computer Science Diploma, I developed a Ruby on Rails app for the faculty library that allowed graduates to query other students’ thesis, and incorporate their own ones once finished. </p>
 
 <h2 id="more-about-me">More about me</h2>
 <p>I am an open and friendly person, always willing to have fun and enjoy what I do.</p>
@@ -288,14 +326,17 @@ Besides writing software, my main activities are surfing & skateboarding. I am a
 <p>I love to travel and get to know new cultures, and my favourite travel method is my beloved VW bus.
 Besides writing software, my main activities are surfing &amp; skateboarding. I am also a bit melomaniac</p>
 ;T:	post@
-I"/stylesheet/;T{;{;I"�html {
+I"/stylesheet/;T{;{;I"�html {
   margin: 0;
   padding: 0;
   font-size: 10px;
-  font-family: 'Lato', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
 }
 
 body {
+  zoom: 1;
   margin: 10px auto;
   background-color: #FAFAFA;
   color: #333222;
@@ -349,6 +390,7 @@ a:visited {
 
 a:hover {
   color: #f90;
+  border-bottom: 1px solid #f90;
 }
 
 p {
@@ -356,8 +398,7 @@ p {
 }
 
 ul, ol {
-  margin: 20px;
-  padding-left: 1.2em;
+  padding-left: 1em;
 }
 
 ul li {
@@ -367,6 +408,7 @@ ul li {
 }
 ul li:before {
   content: "–";
+  font-size: small;
   margin-right: .8rem;
   color: #a7a47a;
 }
@@ -383,7 +425,7 @@ hr {
 
 #head p {
   display: inline-block;
-  width: 50%;
+  width: 31em;
   vertical-align: top;
   margin: 46px 0;
   font-size: 1.6rem;
@@ -408,8 +450,6 @@ hr {
   height: 30px;
 }
 
-
-
 @media all and (max-width: 900px) and (min-width: 600px) {
   body {
     width: initial;
@@ -420,12 +460,16 @@ hr {
   #head p {
     font-size: 1.4rem;
     margin: 26px 0;
+    width: 26em;
   }
   .portrait {
     height: 150px;
   }
 }
 @media all and (max-width: 600px) {
+  html {
+    font-weight: normal;
+  }
   body {
     width: initial;
     padding-left: 1rem;
@@ -435,10 +479,11 @@ hr {
   #head p {
     font-size: 1.2rem;
     margin: 15px 0;
+    width: 13em;
   }
   .portrait {
     height: 120px;
   }
 }
 ;T;	@;
-@I"$/images/GitHub-Mark-120px-plus/;T{;{ I"/images/raul/;T{;{ :versioni
+@I"$/images/GitHub-Mark-120px-plus/;T{;{ I"/images/raul/;T{;{ I"/favicon/;T{;{ :versioni
