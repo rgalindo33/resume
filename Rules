@@ -24,6 +24,7 @@ compile '*' do
   else
     filter :erb
     layout 'default'
+
   end
 end
 

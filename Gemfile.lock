@@ -28,6 +28,7 @@ GEM
     method_source (0.8.2)
     nanoc (3.6.11)
       cri (~> 2.3)
+    pdfkit (0.6.2)
     pry (0.9.12.4)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -46,3 +47,5 @@ PLATFORMS
 DEPENDENCIES
   guard-nanoc
   kramdown
+  pdfkit
+  pry
