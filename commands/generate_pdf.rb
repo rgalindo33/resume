@@ -8,10 +8,10 @@ run do |opts, args, cmd|
   require 'PDFKit'
   require 'pry'
 
-  html = File.new( "output/index.html" ).read
+  html = File.new( "../rgalindo33.github.io/index.html" ).read
   kit = ::PDFKit.new( html, :page_size => 'letter' )
-  kit.stylesheets << 'output/stylesheet.css'
+  kit.stylesheets << '../rgalindo33.github.io/stylesheet.css'
 
-  file = kit.to_file( "output/raul_galindo_resume.pdf" )
+  file = kit.to_file( "../rgalindo33.github.io/raul_galindo_resume.pdf" )
 
 end
