@@ -57,6 +57,9 @@ a:visited {
   border-bottom: 1px dotted #A7A47A;
   color: #A7A47A;
   text-decoration: none;
+  transition: all 0.2s ease-in 0s;
+
+
 }
 
 a:hover {
@@ -94,29 +97,31 @@ hr {
   width: 90%;
 }
 
-#head p {
+.head p {
   display: inline-block;
   width: 31em;
   vertical-align: top;
-  margin: 46px 0;
-  font-size: 1.6rem;
+  margin: 25px 0;
+  font-size: 1.8rem;
   line-height: 1.5em;
   text-transform: uppercase;
 }
 
-#head img {
+.head img {
   display: inline-block;
 }
 
-#head a {
+.head a {
   border: none;
+  display: inline-block;
 }
-#head a.download{
+.head a.download {
+  position: absolute;  
   padding: 2px 0 0 10px;
 }
 
 .portrait {
-  height: 200px;
+  height: 160px;
   display: inline-block;
   margin-right: 20px;
 }
@@ -136,7 +141,7 @@ img.links:hover{
     margin-right: 1.6rem;
     font-size: 1.8rem;
   }
-  #head p {
+  .head p {
     font-size: 1.4rem;
     margin: 26px 0;
     width: 26em;
@@ -155,12 +160,24 @@ img.links:hover{
     margin-right: 1rem;
     font-size: 1.4rem;
   }
-  #head p {
+  .head p {
     font-size: 1.2rem;
     margin: 15px 0;
     width: 13em;
   }
   .portrait {
     height: 120px;
+  }
+}
+
+@media print {
+  body {
+    background-color: white;
+  }
+  a.no_pdf{
+    display: none;
+  }
+  em{
+    letter-spacing: normal;
   }
 }

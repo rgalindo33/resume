@@ -14,6 +14,9 @@
 #   because “*” matches zero or more characters.
 
 compile '*' do
+
+  require 'pry'
+  
   if item[:extension] == 'md'
     filter :kramdown
     layout 'default'

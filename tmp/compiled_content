@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"Ó<!DOCTYPE HTML>
+{:	data{I"/:ET{:default{	:	lastI"<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,14 +6,11 @@
     <title>Raul Galindo - Full Stack Web Developer</title>
     <link rel="stylesheet" href="/stylesheet.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
-
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc 3.6.11">
   </head>
   
   <body>
     <div id="main">
-      <section id="head">
+      <section class="head">
         <img class="portrait" src="images/raul.jpg">
         <p>
           <strong>Raul Galindo</strong>
@@ -23,10 +20,10 @@
           <br>
           <a href="mailto:rgalindo33@gmail.com">rgalindo33@gmail.com</a>
           <br>
-          <a href="http://github.com/rgalindo33" title="View Github account">
+          <a href="http://github.com/rgalindo33" title="View Github account" target="blank" class="no_pdf">
             <img class="links" src="images/GitHub.png">
           </a>
-          <a href="/raul_galindo_resume.pdf" title="Download as PDF" class="download">
+          <a href="/raul_galindo_resume.pdf" title="Download as PDF" target="blank" class="download no_pdf">
             <img class="links" src="images/download.png">
           </a>
         </p>
@@ -34,7 +31,7 @@
 
       <h2 id="who-i-am">Who I am</h2>
 
-<p>My name is Raul Galindo and I am a software developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.</p>
+<p>My name is Raul Galindo and I am a developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.</p>
 
 <p>I am a passionate software writter and hold a high standard of quality and style in everything that I do.</p>
 
@@ -61,7 +58,7 @@
 
 <h2 id="what-i-have-done">What I have done</h2>
 
-<p><strong>Qustodian, <a href="http://www.qustodian.com">http://www.qustodian.com</a></strong><br />
+<p><strong>Qustodian, <a href="http://www.qustodian.com" target="_blank">http://www.qustodian.com</a></strong><br />
 <em>2012-2014</em><br />
 <em>Full Stack Developer</em></p>
 
@@ -73,11 +70,11 @@
 
 <p>There is also a good chunk of JavaScript on the frontend, written in DRY modular CoffeeScript.</p>
 
-<p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com">http://m.qustodian.com</a></p>
+<p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com" target="_blank">http://m.qustodian.com</a></p>
 
 <hr />
 
-<p><strong>TheGoodData, <a href="http://www.thegooddata.org">http://www.thegooddata.org</a></strong><br />
+<p><strong>TheGoodData, <a href="http://www.thegooddata.org" target="_blank">http://www.thegooddata.org</a></strong><br />
 <em>2014</em><br />
 <em>Frontend Developer</em></p>
 
@@ -85,11 +82,11 @@
 
 <hr />
 
-<p><strong>Parkside, <a href="http://www.parkside.at">http://www.parkside.at</a></strong><br />
+<p><strong>Parkside, <a href="http://www.parkside.at" target="_blank">http://www.parkside.at</a></strong><br />
 <em>2011-2012</em><br />
 <em>Frontend Developer</em>  </p>
 
-<p>I was part of the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.</p>
+<p>I was part of the <a href="http://www.video2brain.com" target="_blank">Video2brain</a> team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.</p>
 
 <hr />
 
@@ -97,7 +94,7 @@
 <em>2010-2011</em><br />
 <em>Full Stack Developer</em></p>
 
-<p><strong>KVZ</strong> ‚Äì this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery <a href="http://datatables.net">datatables</a></p>
+<p><strong>KVZ</strong> ‚Äì this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery <a href="http://datatables.net" target="_blank">datatables</a></p>
 
 <p><strong>PIM</strong> ‚Äì also a RoR app to manage the problems and incidences of the support department. This app integrated with the KVZ App.</p>
 
@@ -106,7 +103,7 @@
 <hr />
 
 <p><strong>Universidad Central de Venezuela</strong><br />
-<em><a href="http://www.ciens.ucv.ve/ciens/">Facultad de Ciencias</a></em><br />
+<em><a href="http://www.ciens.ucv.ve/ciens/" target="_blank">Facultad de Ciencias</a></em><br />
 <em>2008</em><br />
 <em>Diploma Thesis</em></p>
 
@@ -126,10 +123,10 @@
     </div>
     </div>
   </body>
-</html>;T:rawI"EWho I am
+</html>;T:rawI"∫Who I am
 --------
 
-My name is Raul Galindo and I am a software developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.
+My name is Raul Galindo and I am a developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.
 
 I am a passionate software writter and hold a high standard of quality and style in everything that I do.
  
@@ -152,7 +149,7 @@ I mostly use ruby and a SQL server to build backends and JavaScript/CoffeeScript
 What I have done
 ----------------
 
-**Qustodian, <http://www.qustodian.com>**  
+**Qustodian, <http://www.qustodian.com>{:target="_blank"}**  
 *2012-2014*  
 *Full Stack Developer*
 
@@ -164,11 +161,11 @@ The app is written in a clean fashion way, following SOLID principles and has a 
 
 There is also a good chunk of JavaScript on the frontend, written in DRY modular CoffeeScript.
 
-I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQuery. See it live at <http://m.qustodian.com>
+I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQuery. See it live at <http://m.qustodian.com>{:target="_blank"}
 
 * * *
 
-**TheGoodData, <http://www.thegooddata.org>**  
+**TheGoodData, <http://www.thegooddata.org>{:target="_blank"}**  
 *2014*  
 *Frontend Developer*
 
@@ -176,11 +173,11 @@ TheGoodData is a cooperative that allows users to obtain control of their data. 
 
 * * *
 
-**Parkside, <http://www.parkside.at>**  
+**Parkside, <http://www.parkside.at>{:target="_blank"}**  
 *2011-2012*  
 *Frontend Developer*  
 
-I was part of the [Video2brain](http://www.video2brain.com) team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.
+I was part of the [Video2brain](http://www.video2brain.com){:target="_blank"} team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.
 
 * * *
 
@@ -188,7 +185,7 @@ I was part of the [Video2brain](http://www.video2brain.com) team, an internation
 *2010-2011*  
 *Full Stack Developer*
  
-**KVZ** ‚Äì this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery [datatables](http://datatables.net)
+**KVZ** ‚Äì this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery [datatables](http://datatables.net){:target="_blank"}
 
 **PIM** ‚Äì also a RoR app to manage the problems and incidences of the support department. This app integrated with the KVZ App.
 
@@ -197,7 +194,7 @@ In both projects I was responsible for a variety of tasks including front and ba
 * * *
 
 **Universidad Central de Venezuela**  
-*[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/)*  
+*[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/){:target="_blank"}*  
 *2008*  
 *Diploma Thesis*
 
@@ -212,9 +209,9 @@ I'm fluent in English, German and Spanish.
 
 I am an open and friendly person, always willing to have fun and enjoy what I do. I am a teamwork enthusiastic and believe it is the best way to work.
 
-Besides coding, I spend my time skateboarding, surfing, traveling, and playing music.;T:preI"(<h2 id="who-i-am">Who I am</h2>
+Besides coding, I spend my time skateboarding, surfing, traveling, and playing music.;T:preI"è<h2 id="who-i-am">Who I am</h2>
 
-<p>My name is Raul Galindo and I am a software developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.</p>
+<p>My name is Raul Galindo and I am a developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.</p>
 
 <p>I am a passionate software writter and hold a high standard of quality and style in everything that I do.</p>
 
@@ -241,7 +238,7 @@ Besides coding, I spend my time skateboarding, surfing, traveling, and playing m
 
 <h2 id="what-i-have-done">What I have done</h2>
 
-<p><strong>Qustodian, <a href="http://www.qustodian.com">http://www.qustodian.com</a></strong><br />
+<p><strong>Qustodian, <a href="http://www.qustodian.com" target="_blank">http://www.qustodian.com</a></strong><br />
 <em>2012-2014</em><br />
 <em>Full Stack Developer</em></p>
 
@@ -253,11 +250,11 @@ Besides coding, I spend my time skateboarding, surfing, traveling, and playing m
 
 <p>There is also a good chunk of JavaScript on the frontend, written in DRY modular CoffeeScript.</p>
 
-<p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com">http://m.qustodian.com</a></p>
+<p>I am also responsible for the frontend of the mobile web, using HTML5/CSS3 &amp; jQuery. See it live at <a href="http://m.qustodian.com" target="_blank">http://m.qustodian.com</a></p>
 
 <hr />
 
-<p><strong>TheGoodData, <a href="http://www.thegooddata.org">http://www.thegooddata.org</a></strong><br />
+<p><strong>TheGoodData, <a href="http://www.thegooddata.org" target="_blank">http://www.thegooddata.org</a></strong><br />
 <em>2014</em><br />
 <em>Frontend Developer</em></p>
 
@@ -265,11 +262,11 @@ Besides coding, I spend my time skateboarding, surfing, traveling, and playing m
 
 <hr />
 
-<p><strong>Parkside, <a href="http://www.parkside.at">http://www.parkside.at</a></strong><br />
+<p><strong>Parkside, <a href="http://www.parkside.at" target="_blank">http://www.parkside.at</a></strong><br />
 <em>2011-2012</em><br />
 <em>Frontend Developer</em>  </p>
 
-<p>I was part of the <a href="http://www.video2brain.com">Video2brain</a> team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.</p>
+<p>I was part of the <a href="http://www.video2brain.com" target="_blank">Video2brain</a> team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.</p>
 
 <hr />
 
@@ -277,7 +274,7 @@ Besides coding, I spend my time skateboarding, surfing, traveling, and playing m
 <em>2010-2011</em><br />
 <em>Full Stack Developer</em></p>
 
-<p><strong>KVZ</strong> ‚Äì this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery <a href="http://datatables.net">datatables</a></p>
+<p><strong>KVZ</strong> ‚Äì this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery <a href="http://datatables.net" target="_blank">datatables</a></p>
 
 <p><strong>PIM</strong> ‚Äì also a RoR app to manage the problems and incidences of the support department. This app integrated with the KVZ App.</p>
 
@@ -286,7 +283,7 @@ Besides coding, I spend my time skateboarding, surfing, traveling, and playing m
 <hr />
 
 <p><strong>Universidad Central de Venezuela</strong><br />
-<em><a href="http://www.ciens.ucv.ve/ciens/">Facultad de Ciencias</a></em><br />
+<em><a href="http://www.ciens.ucv.ve/ciens/" target="_blank">Facultad de Ciencias</a></em><br />
 <em>2008</em><br />
 <em>Diploma Thesis</em></p>
 
@@ -302,7 +299,7 @@ Besides coding, I spend my time skateboarding, surfing, traveling, and playing m
 
 <p>Besides coding, I spend my time skateboarding, surfing, traveling, and playing music.</p>
 ;T:	post@
-I"/stylesheet/;T{;{;I"‰html {
+I"/stylesheet/;T{;{;I"ø	html {
   margin: 0;
   padding: 0;
   font-size: 10px;
@@ -361,6 +358,9 @@ a:visited {
   border-bottom: 1px dotted #A7A47A;
   color: #A7A47A;
   text-decoration: none;
+  transition: all 0.2s ease-in 0s;
+
+
 }
 
 a:hover {
@@ -398,29 +398,31 @@ hr {
   width: 90%;
 }
 
-#head p {
+.head p {
   display: inline-block;
   width: 31em;
   vertical-align: top;
-  margin: 46px 0;
-  font-size: 1.6rem;
+  margin: 25px 0;
+  font-size: 1.8rem;
   line-height: 1.5em;
   text-transform: uppercase;
 }
 
-#head img {
+.head img {
   display: inline-block;
 }
 
-#head a {
+.head a {
   border: none;
+  display: inline-block;
 }
-#head a.download{
+.head a.download {
+  position: absolute;  
   padding: 2px 0 0 10px;
 }
 
 .portrait {
-  height: 200px;
+  height: 160px;
   display: inline-block;
   margin-right: 20px;
 }
@@ -440,7 +442,7 @@ img.links:hover{
     margin-right: 1.6rem;
     font-size: 1.8rem;
   }
-  #head p {
+  .head p {
     font-size: 1.4rem;
     margin: 26px 0;
     width: 26em;
@@ -459,7 +461,7 @@ img.links:hover{
     margin-right: 1rem;
     font-size: 1.4rem;
   }
-  #head p {
+  .head p {
     font-size: 1.2rem;
     margin: 15px 0;
     width: 13em;
@@ -468,5 +470,16 @@ img.links:hover{
     height: 120px;
   }
 }
-;T;	@;
+
+@media print {
+  body {
+    background-color: white;
+  }
+  a.no_pdf{
+    display: none;
+  }
+  em{
+    letter-spacing: normal;
+  }
+};T;	@;
 @I"$/images/GitHub-Mark-120px-plus/;T{;{ I"/images/raul/;T{;{ I"/favicon/;T{;{ I"/images/download/;T{;{ :versioni

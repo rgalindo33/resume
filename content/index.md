@@ -5,7 +5,7 @@ title: Home
 Who I am
 --------
 
-My name is Raul Galindo and I am a software developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.
+My name is Raul Galindo and I am a developer from Venezuela, specialized in OOP, Web, Ruby, and JavaScript.
 
 I am a passionate software writter and hold a high standard of quality and style in everything that I do.
  
@@ -28,7 +28,7 @@ I mostly use ruby and a SQL server to build backends and JavaScript/CoffeeScript
 What I have done
 ----------------
 
-**Qustodian, <http://www.qustodian.com>**  
+**Qustodian, <http://www.qustodian.com>{:target="_blank"}**  
 *2012-2014*  
 *Full Stack Developer*
 
@@ -40,11 +40,11 @@ The app is written in a clean fashion way, following SOLID principles and has a 
 
 There is also a good chunk of JavaScript on the frontend, written in DRY modular CoffeeScript.
 
-I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQuery. See it live at <http://m.qustodian.com>
+I am also responsible for the frontend of the mobile web, using HTML5/CSS3 & jQuery. See it live at <http://m.qustodian.com>{:target="_blank"}
 
 * * *
 
-**TheGoodData, <http://www.thegooddata.org>**  
+**TheGoodData, <http://www.thegooddata.org>{:target="_blank"}**  
 *2014*  
 *Frontend Developer*
 
@@ -52,11 +52,11 @@ TheGoodData is a cooperative that allows users to obtain control of their data. 
 
 * * *
 
-**Parkside, <http://www.parkside.at>**  
+**Parkside, <http://www.parkside.at>{:target="_blank"}**  
 *2011-2012*  
 *Frontend Developer*  
 
-I was part of the [Video2brain](http://www.video2brain.com) team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.
+I was part of the [Video2brain](http://www.video2brain.com){:target="_blank"} team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.
 
 * * *
 
@@ -64,7 +64,7 @@ I was part of the [Video2brain](http://www.video2brain.com) team, an internation
 *2010-2011*  
 *Full Stack Developer*
  
-**KVZ** – this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery [datatables](http://datatables.net)
+**KVZ** – this is a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery [datatables](http://datatables.net){:target="_blank"}
 
 **PIM** – also a RoR app to manage the problems and incidences of the support department. This app integrated with the KVZ App.
 
@@ -73,7 +73,7 @@ In both projects I was responsible for a variety of tasks including front and ba
 * * *
 
 **Universidad Central de Venezuela**  
-*[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/)*  
+*[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/){:target="_blank"}*  
 *2008*  
 *Diploma Thesis*
 

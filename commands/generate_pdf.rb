@@ -8,9 +8,8 @@ run do |opts, args, cmd|
   require 'PDFKit'
   require 'pry'
 
-  html = File.new( "output/index.html" )
+  html = File.new( "output/index.html" ).read
   kit = ::PDFKit.new( html, :page_size => 'letter' )
-  binding.pry
   kit.stylesheets << 'output/stylesheet.css'
 
   file = kit.to_file( "output/raul_galindo_resume.pdf" )
