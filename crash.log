@@ -1,54 +1,28 @@
-Crashlog created at 2016-08-19 09:25:29 +0200
+Crashlog created at 2016-08-19 10:12:29 +0200
 
 ===== MESSAGE:
 
-NoMethodError: undefined method `path' for nil:NilClass
+PDFKit::NoExecutableError: No wkhtmltopdf executable found at 
+>> Please install wkhtmltopdf - https://github.com/pdfkit/PDFKit/wiki/Installing-WKHTMLTOPDF
 
 ===== COMPILATION STACK:
 
-  - [item]   /index.md (rep default)
+  (empty)
 
 ===== STACK TRACE:
 
-  0. layout /default.html:7:in `get_binding'
-  1. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0/erb.rb:864:in `eval'
-  2. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0/erb.rb:864:in `result'
-  3. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/filters/erb.rb:32:in `run'
-  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/filter.rb:130:in `setup_and_run'
-  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/services/executor.rb:80:in `layout'
-  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/compiler.rb:254:in `block in recalculate_content_for_rep'
-  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/entities/rule_memory.rb:57:in `block in each'
-  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/entities/rule_memory.rb:57:in `each'
-  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/entities/rule_memory.rb:57:in `each'
-  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/compiler.rb:249:in `recalculate_content_for_rep'
-  11. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/compiler.rb:224:in `compile_rep'
-  12. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/compiler.rb:197:in `block in compile_reps'
-  13. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/services/item_rep_selector.rb:18:in `block in each'
-  14. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/services/item_rep_selector.rb:13:in `loop'
-  15. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/services/item_rep_selector.rb:13:in `each'
-  16. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/compiler.rb:195:in `compile_reps'
-  17. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  18. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/compilation/compiler.rb:77:in `run_all'
-  19. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/base/entities/site.rb:30:in `compile'
-  20. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/commands/compile.rb:406:in `block in run'
-  21. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/commands/compile.rb:449:in `run_listeners_while'
-  22. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/commands/compile.rb:405:in `run'
-  23. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/command_runner.rb:12:in `block in call'
-  24. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
-  25. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
-  26. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/command_runner.rb:11:in `call'
-  27. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command_dsl.rb:233:in `block in runner'
-  28. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
-  29. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
-  30. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/commands/nanoc.rb:37:in `block in define'
-  31. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
-  32. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
-  33. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:46:in `block in run'
-  34. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
-  35. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
-  36. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:44:in `run'
-  37. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/bin/nanoc:9:in `<top (required)>'
-  38. /Users/raul.galindo/.gem/ruby/2.3.1/bin/nanoc:22:in `load'
+  0. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:32:in `initialize'
+  1. commands/generate_pdf.rb:10:in `new'
+  2. commands/generate_pdf.rb:10:in `block in define'
+  3. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
+  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
+  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:260:in `run'
+  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:46:in `block in run'
+  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
+  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
+  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:44:in `run'
+  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/bin/nanoc:9:in `<top (required)>'
+  11. /Users/raul.galindo/.gem/ruby/2.3.1/bin/nanoc:22:in `load'
 
 ===== VERSION INFORMATION:
 
@@ -69,6 +43,7 @@ Darwin nb-rgalindo 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 
   hamster 3.0.0
   kramdown 1.12.0
   nanoc 4.2.4
+  pdfkit 0.8.2
   rack 2.0.1
   ref 2.0.0
 
@@ -89,6 +64,7 @@ GEM
       cri (~> 2.3)
       hamster (~> 3.0)
       ref (~> 2.0)
+    pdfkit (0.8.2)
     rack (2.0.1)
     ref (2.0.0)
 
@@ -99,6 +75,7 @@ DEPENDENCIES
   adsf
   kramdown
   nanoc
+  pdfkit
 
 BUNDLED WITH
    1.11.2
@@ -106,21 +83,22 @@ BUNDLED WITH
 ===== LOAD PATHS:
 
   0. /Users/raul.galindo/.gem/ruby/2.3.1/gems/ref-2.0.0/lib
-  1. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib
-  2. /Users/raul.galindo/.gem/ruby/2.3.1/gems/ref-2.0.0/lib
-  3. /Users/raul.galindo/.gem/ruby/2.3.1/gems/kramdown-1.12.0/lib
-  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/hamster-3.0.0/lib
-  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib
-  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/concurrent-ruby-1.0.2/lib
-  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/colored-1.2/lib
-  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/adsf-1.2.1/lib
-  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/rack-2.0.1/lib
-  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/bundler-1.11.2/lib
-  11. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby/2.3.0
-  12. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby/2.3.0/x86_64-darwin15
-  13. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby
-  14. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby/2.3.0
-  15. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin15
-  16. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby
-  17. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0
-  18. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0/x86_64-darwin15
+  1. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib
+  2. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib
+  3. /Users/raul.galindo/.gem/ruby/2.3.1/gems/ref-2.0.0/lib
+  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/kramdown-1.12.0/lib
+  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/hamster-3.0.0/lib
+  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib
+  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/concurrent-ruby-1.0.2/lib
+  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/colored-1.2/lib
+  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/adsf-1.2.1/lib
+  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/rack-2.0.1/lib
+  11. /Users/raul.galindo/.gem/ruby/2.3.1/gems/bundler-1.11.2/lib
+  12. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby/2.3.0
+  13. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby/2.3.0/x86_64-darwin15
+  14. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby
+  15. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby/2.3.0
+  16. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin15
+  17. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby
+  18. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0
+  19. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0/x86_64-darwin15

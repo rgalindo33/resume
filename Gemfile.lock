@@ -13,6 +13,7 @@ GEM
       cri (~> 2.3)
       hamster (~> 3.0)
       ref (~> 2.0)
+    pdfkit (0.8.2)
     rack (2.0.1)
     ref (2.0.0)
 
@@ -23,6 +24,7 @@ DEPENDENCIES
   adsf
   kramdown
   nanoc
+  pdfkit
 
 BUNDLED WITH
    1.11.2
