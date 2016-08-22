@@ -4,7 +4,7 @@ o:Nanoc::Identifier:
 To;;;;	I" /GitHub-Mark-120px-plus.png;
 T{;{;o;;I"L/Users/raul.galindo/Developer/resume/content/GitHub-Mark-120px-plus.png;
 To;;;;	I"/index.md;
-T{;{	;U:Nanoc::Int::TextualContent[0I"7 <!DOCTYPE HTML>
+T{;{	;U:Nanoc::Int::TextualContent[0I"x <!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -17,7 +17,7 @@ T{;{	;U:Nanoc::Int::TextualContent[0I"7 <!DOCTYPE HTML>
   <body>
     <div id="main">
       <section class="head">
-        <img class="portrait" src="raul.jpg">
+        <img class="portrait" src="raul.jpg" alt="Raul Galindo">
         <p>
           <strong>Raul Galindo</strong>
           - Full Stack Web Developer
@@ -27,10 +27,10 @@ T{;{	;U:Nanoc::Int::TextualContent[0I"7 <!DOCTYPE HTML>
           <a href="mailto:rgalindo33@gmail.com">rgalindo33@gmail.com</a>
           <br>
           <a href="http://github.com/rgalindo33" title="View Github account" target="blank" class="no_pdf">
-            <img class="links" src="GitHub-Mark-120px-plus.png">
+            <img class="links" src="GitHub-Mark-120px-plus.png" alt="Github Account">
           </a>
           <a href="/#" title="Download as PDF" target="blank" class="download no_pdf">
-            <img class="links" src="download.png">
+            <img class="links" src="download.png" alt="Download CV as PDF">
           </a>
         </p>
       </section>
