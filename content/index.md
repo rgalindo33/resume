@@ -7,6 +7,8 @@ Who I am
 
 My name is Raul Galindo and I am a passionate software developer specialized in OOP, Web, Ruby, JavaScript and swift.
 
+I hold a high standard of quality and style in everything that I do. I'm constantly working on improving my skills and workflow to become more productive as a programmer and as a team member. 
+
 My goal is to help companies succeed building quality products that impact and empower people using them.
 
 What I can do
@@ -105,9 +107,7 @@ I'm fluent in English, German and Spanish.
 
 I am an open and friendly person, always willing to have fun and enjoy what I do. I am a teamwork enthusiastic and really enjoy pair programming with both more experienced and junior developers.
 
-I'm constantly working on improving my skills and workflow to become more productive as a programmer and as a team member. I also enjoy helping younger programmers and put extra effort in coaching and inspiring them, and setting good example.
-
-I hold a high standard of quality and style in everything that I do.
+I also enjoy helping younger programmers and put extra effort in coaching and inspiring them, and setting good example.
 
 I enjoy life outdoors with my family and we all engage in surfing, skateboard, snowboarding and other activities.
 
