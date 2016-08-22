@@ -18,12 +18,11 @@ What I can do
 
 * Write highly-scalable, modular and self-explaining code
 
+* API design focused on functionality, usability and developer experience
+
 * Pixel perfect, clean-coded, valid, and cross-browser websites
 
-* Write truly responsive 'mobile first' HTML/CSS
-
 I mostly use ruby and a SQL server to build backends and JavaScript/CoffeeScript to build frontends, although I also know other popular languages.
-
 
 What I have done
 ----------------
