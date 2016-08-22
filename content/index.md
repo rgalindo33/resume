@@ -9,8 +9,6 @@ My name is Raul Galindo and I am a passionate software developer specialized in 
 
 My goal is to help companies succeed building quality products that impact and empower people using them.
 
-I'm constantly working on improving my skills and workflow to become more productive as a programmer and as a team member. I also enjoy helping younger programmers and put extra effort in coaching and inspiring them, and setting good example.
-
 What I can do
 -------------
 
@@ -18,7 +16,7 @@ What I can do
 
 * Write highly-scalable, modular and self-explaining code
 
-* API design focused on functionality, usability and developer experience
+* Design APIs focused on functionality, usability and developer experience
 
 * Pixel perfect, clean-coded, valid, and cross-browser websites
 
@@ -35,7 +33,7 @@ My first contribution at XING was working as a full stack developer for the acti
 
 Later on i became tech lead for the company profiles in XING platform. Appart from my developer role, my key responsabilities include keeping good communication between development and product owners, ensuring the stability and performance of the application and helping other team members to achieve their goals.
 
-At the moment, im working for the jobs mobile app. Im the backend tech lead and some of the most interesting tasks are visualizing time series and metrics using graphite/graphana, API versioning and development of cross application features. I like to walk the extra mile and take some of the small iOS tasks when the team needs it.
+At the moment, im working for the jobs mobile app. Im the backend tech lead and some of the most interesting tasks include visualizing time series and metrics using graphite/graphana, API versioning and development of cross application features. I like to walk the extra mile and take some of the small iOS tasks when the team needs it.
 
 * * *
 
@@ -107,9 +105,11 @@ I'm fluent in English, German and Spanish.
 
 I am an open and friendly person, always willing to have fun and enjoy what I do. I am a teamwork enthusiastic and really enjoy pair programming with both more experienced and junior developers.
 
+I'm constantly working on improving my skills and workflow to become more productive as a programmer and as a team member. I also enjoy helping younger programmers and put extra effort in coaching and inspiring them, and setting good example.
+
 I hold a high standard of quality and style in everything that I do.
 
-I enjoy life outdoors with my family and we all engage in surfing, skateboard and other non-conventional activities
+I enjoy life outdoors with my family and we all engage in surfing, skateboard, snowboarding and other activities.
 
 <!-- <script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/e4d4c5d0cae75c608fa2b57c3e53a9a5.html" id="lightwidget_e4d4c5d0ca" name="lightwidget_e4d4c5d0ca"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe> -->
 
