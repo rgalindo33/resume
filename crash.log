@@ -1,9 +1,8 @@
-Crashlog created at 2016-08-19 10:12:29 +0200
+Crashlog created at 2016-08-25 07:58:32 +0200
 
 ===== MESSAGE:
 
-PDFKit::NoExecutableError: No wkhtmltopdf executable found at 
->> Please install wkhtmltopdf - https://github.com/pdfkit/PDFKit/wiki/Installing-WKHTMLTOPDF
+PDFKit::ImproperSourceError: Improper Source: Stylesheets may only be added to an HTML source
 
 ===== COMPILATION STACK:
 
@@ -11,18 +10,19 @@ PDFKit::NoExecutableError: No wkhtmltopdf executable found at
 
 ===== STACK TRACE:
 
-  0. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:32:in `initialize'
-  1. commands/generate_pdf.rb:10:in `new'
-  2. commands/generate_pdf.rb:10:in `block in define'
-  3. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
-  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
-  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:260:in `run'
-  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:46:in `block in run'
-  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
-  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
-  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:44:in `run'
-  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/bin/nanoc:9:in `<top (required)>'
-  11. /Users/raul.galindo/.gem/ruby/2.3.1/bin/nanoc:22:in `load'
+  0. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:115:in `append_stylesheets'
+  1. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:59:in `to_pdf'
+  2. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:76:in `to_file'
+  3. commands/generate_pdf.rb:14:in `block in define'
+  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
+  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
+  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:260:in `run'
+  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:46:in `block in run'
+  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
+  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
+  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:44:in `run'
+  11. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/bin/nanoc:9:in `<top (required)>'
+  12. /Users/raul.galindo/.gem/ruby/2.3.1/bin/nanoc:22:in `load'
 
 ===== VERSION INFORMATION:
 

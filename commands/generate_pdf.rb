@@ -7,7 +7,8 @@ run do |opts, args, cmd|
   require 'PDFKit'
 
   html = File.new( "output/index.html" ).read
-  kit = ::PDFKit.new( html, :page_size => 'letter',:print_media_type => true)
+  # kit = PDFKit.new('http://rgalindo33.github.io')
+  kit = ::PDFKit.new(html, page_size: 'letter', print_media_type: true)
   kit.stylesheets << 'output/stylesheet.css'
 
   file = kit.to_file( "output/raul_galindo_resume.pdf" )
