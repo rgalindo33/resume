@@ -22,20 +22,27 @@ What I can do
 
 * Pixel perfect, clean-coded, valid, and cross-browser websites
 
-I mostly use ruby and a SQL server to build backends and JavaScript to build frontends. I also have some experiece in iOS, mostly with swift. I also know other popular languages.
+* Plan and execute software projects from inception through implementation
+
+I mostly use ruby and a SQL server to build backends and JavaScript to build frontends. I also know other popular languages.
 
 What I have done
 ----------------
 
+**Intellum, <http://www.intellum.com>{:target="_blank"}**  
+*2016-Present*  
+*Full Stack Developer - Remote*  
+
+My main role at Intellum has been as an owner of a mayor app rewrite, moving from node + mongo stack to ruby on rails + postgres to match the tech stack of other company products.
+I have been involved from the start, planning the strategy to achieve seamless migration for our customers, coding the solution using Rails 5 best practices yet ensuring that the previous API is properly matched and finally migrating all the data from a document based database to a relational one.
+
+* * *
+
 **XING, <http://www.xing.com>{:target="_blank"}**  
-*2014-Present*  
+*2014-2016*  
 *Full Stack Developer*  
 
-I started working at XING as a full stack developer for the active recruiting platform (XING Talent Manager), which is a Ruby on Rails application connected to a client side application with Javascript using backbone.js and marionette.js.
-
-Later on i became tech lead for the company profiles in XING platform. Appart from my developer role, my key responsabilities include keeping good communication between development and product owners, ensuring the stability and performance of the application and helping other team members to achieve their goals.
-
-At the moment, im working for the jobs mobile app. Im the backend tech lead and some of the most interesting tasks include visualizing time series and metrics using graphite/graphana, API versioning and development of cross application features. I like to walk the extra mile and take some of the small iOS tasks when the team needs it.
+I worked at XING as a full stack developer for the active recruiting platform (XING Talent Manager, Ruby on Rails backend with marionette.js), and later as a tech lead of the Company Profiles and Jobs Mobile teams (mostly ruby, some pyton). Appart from my developer role, my key responsabilities included keeping good communication between development and product owners, ensuring the stability and performance of the applications, API versioning, development of cross application features and helping other team members to achieve their goals.
 
 * * *
 

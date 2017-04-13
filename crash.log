@@ -1,8 +1,9 @@
-Crashlog created at 2016-08-25 07:58:32 +0200
+Crashlog created at 2017-04-13 09:48:17 +0200
 
 ===== MESSAGE:
 
-PDFKit::ImproperSourceError: Improper Source: Stylesheets may only be added to an HTML source
+PDFKit::NoExecutableError: No wkhtmltopdf executable found at 
+>> Please install wkhtmltopdf - https://github.com/pdfkit/PDFKit/wiki/Installing-WKHTMLTOPDF
 
 ===== COMPILATION STACK:
 
@@ -10,46 +11,59 @@ PDFKit::ImproperSourceError: Improper Source: Stylesheets may only be added to a
 
 ===== STACK TRACE:
 
-  0. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:115:in `append_stylesheets'
-  1. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:59:in `to_pdf'
-  2. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:76:in `to_file'
-  3. commands/generate_pdf.rb:14:in `block in define'
-  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
-  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
-  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib/cri/command.rb:260:in `run'
-  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:46:in `block in run'
-  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
-  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
-  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib/nanoc/cli.rb:44:in `run'
-  11. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/bin/nanoc:9:in `<top (required)>'
-  12. /Users/raul.galindo/.gem/ruby/2.3.1/bin/nanoc:22:in `load'
+  0. /usr/local/lib/ruby/gems/2.4.0/gems/pdfkit-0.8.2/lib/pdfkit/pdfkit.rb:32:in `initialize'
+  1. commands/generate_pdf.rb:11:in `new'
+  2. commands/generate_pdf.rb:11:in `block in define'
+  3. /usr/local/lib/ruby/gems/2.4.0/gems/cri-2.7.0/lib/cri/command.rb:294:in `run_this'
+  4. /usr/local/lib/ruby/gems/2.4.0/gems/cri-2.7.0/lib/cri/command.rb:247:in `run'
+  5. /usr/local/lib/ruby/gems/2.4.0/gems/cri-2.7.0/lib/cri/command.rb:260:in `run'
+  6. /usr/local/lib/ruby/gems/2.4.0/gems/nanoc-4.2.4/lib/nanoc/cli.rb:46:in `block in run'
+  7. /usr/local/lib/ruby/gems/2.4.0/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:64:in `handle_while'
+  8. /usr/local/lib/ruby/gems/2.4.0/gems/nanoc-4.2.4/lib/nanoc/cli/error_handler.rb:22:in `handle_while'
+  9. /usr/local/lib/ruby/gems/2.4.0/gems/nanoc-4.2.4/lib/nanoc/cli.rb:44:in `run'
+  10. /usr/local/lib/ruby/gems/2.4.0/gems/nanoc-4.2.4/bin/nanoc:9:in `<top (required)>'
+  11. /usr/local/bin/nanoc:22:in `load'
 
 ===== VERSION INFORMATION:
 
 Nanoc 4.2.4 © 2007-2016 Denis Defreyne.
-Running ruby 2.3.1 (2016-04-26) on x86_64-darwin15 with RubyGems 2.6.4.
+Running ruby 2.4.0 (2016-12-24) on x86_64-darwin16 with RubyGems 2.6.8.
 
 ===== SYSTEM INFORMATION:
 
-Darwin nb-rgalindo 15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 23 18:25:34 PDT 2016; root:xnu-3248.60.10~1/RELEASE_X86_64 x86_64
+Darwin Rauls-MacBook-Pro.local 16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; root:xnu-3789.41.3~3/RELEASE_X86_64 x86_64
 
 ===== INSTALLED GEMS:
 
   adsf 1.2.1
-  bundler 1.11.2
+  bigdecimal 1.3.0
+  bundler 1.14.6
   colored 1.2
   concurrent-ruby 1.0.2
   cri 2.7.0
+  did_you_mean 1.1.0
   hamster 3.0.0
+  io-console 0.4.6
+  json 2.0.2
   kramdown 1.12.0
+  minitest 5.10.1
   nanoc 4.2.4
+  net-telnet 0.1.1
+  openssl 2.0.2
   pdfkit 0.8.2
+  power_assert 0.4.1
+  psych 2.2.2
   rack 2.0.1
+  rake 12.0.0
+  rdoc 5.0.0
   ref 2.0.0
+  test-unit 3.2.3
+  xmlrpc 0.2.1
 
 ===== GEMFILE.LOCK:
 
 GEM
+  remote: https://rubygems.org/
   specs:
     adsf (1.2.1)
       rack (>= 1.0.0)
@@ -78,27 +92,24 @@ DEPENDENCIES
   pdfkit
 
 BUNDLED WITH
-   1.11.2
+   1.14.6
 
 ===== LOAD PATHS:
 
-  0. /Users/raul.galindo/.gem/ruby/2.3.1/gems/ref-2.0.0/lib
-  1. /Users/raul.galindo/.gem/ruby/2.3.1/gems/pdfkit-0.8.2/lib
-  2. /Users/raul.galindo/.gem/ruby/2.3.1/gems/nanoc-4.2.4/lib
-  3. /Users/raul.galindo/.gem/ruby/2.3.1/gems/ref-2.0.0/lib
-  4. /Users/raul.galindo/.gem/ruby/2.3.1/gems/kramdown-1.12.0/lib
-  5. /Users/raul.galindo/.gem/ruby/2.3.1/gems/hamster-3.0.0/lib
-  6. /Users/raul.galindo/.gem/ruby/2.3.1/gems/cri-2.7.0/lib
-  7. /Users/raul.galindo/.gem/ruby/2.3.1/gems/concurrent-ruby-1.0.2/lib
-  8. /Users/raul.galindo/.gem/ruby/2.3.1/gems/colored-1.2/lib
-  9. /Users/raul.galindo/.gem/ruby/2.3.1/gems/adsf-1.2.1/lib
-  10. /Users/raul.galindo/.gem/ruby/2.3.1/gems/rack-2.0.1/lib
-  11. /Users/raul.galindo/.gem/ruby/2.3.1/gems/bundler-1.11.2/lib
-  12. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby/2.3.0
-  13. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby/2.3.0/x86_64-darwin15
-  14. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/site_ruby
-  15. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby/2.3.0
-  16. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby/2.3.0/x86_64-darwin15
-  17. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/vendor_ruby
-  18. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0
-  19. /Users/raul.galindo/.rubies/ruby-2.3.1/lib/ruby/2.3.0/x86_64-darwin15
+  0. /usr/local/lib/ruby/gems/2.4.0/gems/ref-2.0.0/lib
+  1. /usr/local/lib/ruby/gems/2.4.0/gems/did_you_mean-1.1.0/lib
+  2. /usr/local/lib/ruby/gems/2.4.0/gems/colored-1.2/lib
+  3. /usr/local/lib/ruby/gems/2.4.0/gems/cri-2.7.0/lib
+  4. /usr/local/lib/ruby/gems/2.4.0/gems/concurrent-ruby-1.0.2/lib
+  5. /usr/local/lib/ruby/gems/2.4.0/gems/hamster-3.0.0/lib
+  6. /usr/local/lib/ruby/gems/2.4.0/gems/ref-2.0.0/lib
+  7. /usr/local/lib/ruby/gems/2.4.0/gems/nanoc-4.2.4/lib
+  8. /usr/local/lib/ruby/gems/2.4.0/gems/pdfkit-0.8.2/lib
+  9. /usr/local/lib/ruby/site_ruby/2.4.0
+  10. /usr/local/lib/ruby/site_ruby/2.4.0/x86_64-darwin16
+  11. /usr/local/lib/ruby/site_ruby
+  12. /usr/local/lib/ruby/vendor_ruby/2.4.0
+  13. /usr/local/lib/ruby/vendor_ruby/2.4.0/x86_64-darwin16
+  14. /usr/local/lib/ruby/vendor_ruby
+  15. /usr/local/Cellar/ruby/2.4.0/lib/ruby/2.4.0
+  16. /usr/local/Cellar/ruby/2.4.0/lib/ruby/2.4.0/x86_64-darwin16
