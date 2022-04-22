@@ -25,14 +25,13 @@ What I can do
 * Represent the nature of engineering work and facilitate comunication with other stakeholders.
 
 
-
 I mostly use ruby and a SQL server to build backends and JavaScript to build frontends. I also know other popular languages.
 
 What I have done
 ----------------
 
-**Intellum, <http://www.intellum.com>{:target="_blank"}**
-*2022-Current*
+**Intellum, <http://www.intellum.com>{:target="_blank"}**<br>
+*2022-Current*<br>
 *Engineering Manager - Remote*
 
 As an Engineering manager, my main responsibilies are ensuring our teams are staffed, performing and delivering quality solutions, while supporting the wellbeing and ongoing professional development of their members.
@@ -43,7 +42,7 @@ Altough I no longer contribute to my team's goals by writing code or designing s
 
 
 * * *
-*2016-2021*
+*2016-2021*<br>
 *Full Stack Developer - Remote*
 
 During my 5 years as an individual contributor at Intellum, I successfully ship dozens of features that contributed to establishment of the company as the leader in the Customer Education Platform
@@ -56,24 +55,24 @@ During my 5 years as an individual contributor at Intellum, I successfully ship 
 
 * * *
 
-**XING, <http://www.xing.com>{:target="_blank"}**
-*2014-2016*
+**XING, <http://www.xing.com>{:target="_blank"}**<br>
+*2014-2016*<br>
 *Full Stack Developer*
 
 I worked at XING as a full stack developer for the active recruiting platform (XING Talent Manager, Ruby on Rails backend with marionette.js), and later as a tech lead of the Company Profiles and Jobs Mobile teams (mostly ruby, some pyton). Appart from my developer role, my key responsabilities included keeping good communication between development and product owners, ensuring the stability and performance of the applications, API versioning, development of cross application features and helping other team members to achieve their goals.
 
 * * *
 
-**IRONHACK, <http://www.ironhack.com>{:target="_blank"}**
-*2016-Present*
+**IRONHACK, <http://www.ironhack.com>{:target="_blank"}**<br>
+*2016-Present*<br>
 *Teacher*
 
 Ruby, Ruby on Rails and other web technologies teacher at the Web Development Bootcamp.
 
 * * *
 
-**Qustodian, <http://www.qustodian.com>{:target="_blank"}**
-*2012-2014*
+**Qustodian, <http://www.qustodian.com>{:target="_blank"}**<br>
+*2012-2014*<br>
 *Full Stack Developer*
 
 Qustodian is an app that delivers highly segmentated messages based on user interests, geolocation and preferences.
@@ -86,24 +85,24 @@ I also lead the frontend of the mobile web, using HTML5/CSS3 and JavaSCript.
 
 * * *
 
-**TheGoodData, <http://www.thegooddata.org>{:target="_blank"}**
-*2014*
+**TheGoodData, <http://www.thegooddata.org>{:target="_blank"}**<br>
+*2014*<br>
 *Frontend Developer*
 
 TheGoodData is a cooperative that allows users to obtain control of their data. I worked on the development of the Chrome extension using plain JavaScript and Html/CSS, and also worked on the website's frontend.
 
 * * *
 
-**Parkside, <http://www.parkside.at>{:target="_blank"}**
-*2011-2012*
+**Parkside, <http://www.parkside.at>{:target="_blank"}**<br>
+*2011-2012*<br>
 *Frontend Developer*
 
 I was part of the [Video2brain](http://www.video2brain.com){:target="_blank"} team, an international video training website with 400k+ users. As a frontend developer, JavaScript enhancements for user experience and topic/brand-focused microsite development were my main tasks, although i also did some backend development using Coldfusion and Mysql.
 
 * * *
 
-**Gruebl Automatisierungstechnik**
-*2010-2011*
+**Gruebl Automatisierungstechnik**<br>
+*2010-2011*<br>
 *Full Stack Developer*
 
 **KVZ** – a standard Ruby on Rails 2.3 app that gathers project information, contacts and other information to help the workers to find accomodations, food and other services in eastern Europe, making their remote work much easier. I used a Mysql database and employed extensively jQuery [datatables](http://datatables.net){:target="_blank"}
@@ -114,9 +113,9 @@ In both projects I was responsible for a variety of tasks including front and ba
 
 * * *
 
-**Universidad Central de Venezuela**
-*[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/){:target="_blank"}*
-*2008*
+**Universidad Central de Venezuela**<br>
+*[Facultad de Ciencias](http://www.ciens.ucv.ve/ciens/){:target="_blank"}*<br>
+*2008*<br>
 *Diploma Thesis*
 
 In order to achieve my Computer Science Diploma, I developed a Ruby on Rails app for the faculty library that allowed graduates to query other students' thesis, and incorporate their own ones once finished.
